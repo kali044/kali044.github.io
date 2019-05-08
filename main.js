@@ -1,5 +1,18 @@
-$('.overlay').show('fast').delay(2000).hide('fast');
-$('.page').hide('fast').delay(2000).show('fast');
+
+
+setTimeout(function() {
+  $('.overlay').hide();
+}, 2000);
+
+setTimeout(function() {
+  $('.page').hide();
+}, 0);
+
+setTimeout(function() {
+  $('.page').show();
+}, 2000);
+
+
 
 
 function getTimeRemaining(endtime) {
