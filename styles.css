@@ -1,56 +1,72 @@
-#slogan{
-    color: #B7CAF4;
-    font-size: 16px;
-    font-family: 'Quattrocento Sans', sans-serif;
-}
-
-
-
-#Avenger{
-    padding: 10px;
-    max-width: 340px;
-    height: auto;
-}
 
 body{
-	text-align: center;
-    background: #010200;
-  font-family: sans-serif;
-  font-weight: 100;
+ background-color: black
 }
 
-h1{
-  color: rgb(221, 221, 221);
-  font-weight: 100;
-  font-size: 30px;
-  margin: 40px 0px 20px;
-  font-family: 'Lora', serif;
+p span 
+{
+    display: block;
 }
 
-#clockdiv{
-	font-family: sans-serif;
-	color: #fff;
-	display: inline-block;
-	font-weight: 100;
-	text-align: center;
-	font-size: 30px;
+.title{
+  color:#9A1C1C;
+  text-shadow: 2px 2px #997341;
+  font-family: 'Nunito', sans-serif;
+  font-size: 50px;
+  margin-bottom: 0px;
+  padding-top: 2em;
 }
 
-#clockdiv > div{
-	padding: 10px;
-	border-radius: 3px;
-	background: #474a56;
-	display: inline-block;
+.tBox1{
+  display: inline;
+  
+  text-align: center;
+  min-height: 37vh;
+  margin-bottom: 0em;
+  padding-bottom: 0em;
+  
+  
 }
 
-#clockdiv div > span{
-	padding: 15px;
-	border-radius: 3px;
-	background: #929aab;
-	display: inline-block;
+.title2{
+  color:white;
+  font-family: 'Pacifico', cursive;
+  font-size: 27px;
+  margin-top: 0px;
+  top: -30px;
 }
 
-.smalltext{
-	padding-top: 5px;
-	font-size: 16px;
+.tBox2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.clock{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 30vh;
+}
+
+.myVideo {
+  position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -40;
+    width: 100%;
+    height: 100%;
+  filter:opacity(80%);
+}
+
+.myVideo__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  
 }
