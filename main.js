@@ -1,16 +1,16 @@
 
 
-// setTimeout(function() {
-//   $('.overlay').hide();
-// }, 2000);
+setTimeout(function() {
+  $('.overlay').hide();
+}, 2000);
 
-// setTimeout(function() {
-//   $('.page').hide();
-// }, 0);
+setTimeout(function() {
+  $('.page').hide();
+}, 0);
 
-// setTimeout(function() {
-//   $('.page').show();
-// }, 2000);
+setTimeout(function() {
+  $('.page').show();
+}, 2000);
 
 
 
