@@ -1,3 +1,7 @@
+$('.overlay').show('fast').delay(2000).hide('fast');
+$('.page').hide('fast').delay(2000).show('fast');
+
+
 function getTimeRemaining(endtime) {
     var t = endtime - Date.parse(new Date());
     var days = Math.floor(t / (1000 * 60 * 60 * 24));
@@ -41,5 +45,4 @@ function getTimeRemaining(endtime) {
   var deadline = new Date("July 2, 2019 00:00:00").getTime();
   initializeClock('clockdiv', deadline);
 
-  $('.overlay').fadeIn('fast').delay(2000).fadeOut('fast');
-  $('.page').fadeOut('fast').delay(2000).fadeIn('fast');
+ 
