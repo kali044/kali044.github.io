@@ -4,8 +4,7 @@
   
     <title> Spiderman Countdown</title>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<link rel="stylesheet" href="FlipClock/flipclock.css">
-    <script src="FlipClock/flipclock.min.js"></script>
+		
     <link rel="stylesheet" href="styles.css"> 
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -13,7 +12,7 @@
 	</head>
 	<body>
     
-    <video  loop id="vid" class="myVideo">
+    <video autoplay muted loop id="vid" class="myVideo">
         <source src="video/spiderman(2).mp4" type="video/mp4">
       </video>
     <div class='tBox1'>
@@ -24,11 +23,24 @@
         <p class='title2'> Far From HomE</p>
     </div>
 
-
-
-    <div class="clock"></div>
-    <div class="message"></div>
-   
+    <div id="clockdiv">
+        <div>
+          <span class="days"></span>
+          <div class="smalltext">Days</div>
+        </div>
+        <div>
+          <span class="hours"></span>
+          <div class="smalltext">Hours</div>
+        </div>
+        <div>
+          <span class="minutes"></span>
+          <div class="smalltext">Minutes</div>
+        </div>
+        <div>
+          <span class="seconds"></span>
+          <div class="smalltext">Seconds</div>
+        </div>
+      </div>
     <script src='main.js'></script>
 
 	</body>

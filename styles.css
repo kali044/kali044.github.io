@@ -19,7 +19,6 @@ p span
 
 .tBox1{
   display: inline;
-  
   text-align: center;
   min-height: 37vh;
   margin-bottom: 0em;
@@ -69,4 +68,42 @@ p span
   top: 0;
   left: 0;
   
+}
+
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+  margin-top: 50;
+	font-weight: 100;
+	text-align: center;
+  font-size: 30px;
+ 
+    justify-content: center;
+  
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #9A1C1C;
+  display: inline-block;
+  opacity: 0.9;
+}
+
+#clockdiv div > span{
+  padding: 25px;
+	border-radius: 3px;
+	background: #997341;
+  display: inline-block;
+ 
+}
+
+.days .hours .minutes .seconds{
+  font-size: 37px;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
 }
