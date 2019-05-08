@@ -26,7 +26,3 @@ setTimeout(function(){
     document.getElementById("vid").play();
     }, 3000);
 
-function showIt2() {
-    document.getElementById("clock").style.visibility = "visible";
-    }
-    setTimeout("showIt2()", 5000); 
