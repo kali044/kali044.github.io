@@ -41,3 +41,5 @@ function getTimeRemaining(endtime) {
   var deadline = new Date("July 2, 2019 00:00:00").getTime();
   initializeClock('clockdiv', deadline);
 
+  $('.overlay').fadeIn('fast').delay(2000).fadeOut('fast');
+  $('.page').fadeOut('fast').delay(2000).fadeIn('fast');
