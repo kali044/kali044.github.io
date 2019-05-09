@@ -13,7 +13,7 @@ setTimeout(function() {
   $('.posterDiv').show();
 }, 22000);
 
-
+document.getElementById('vid').play();
 
 var clock;		
 		$(document).ready(function() {
