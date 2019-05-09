@@ -1,6 +1,6 @@
 setTimeout(function() {
-  $('.page').hide();
   $('.posterDiv').hide();
+  $('.page').hide();
 }, 0);
 
 setTimeout(function() {
