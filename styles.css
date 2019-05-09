@@ -44,7 +44,9 @@ p span
     z-index: -50 ;
 }
 
-
+.space{
+  display: flex;
+}
 
 .title{
   color:#9A1C1C;
@@ -61,7 +63,7 @@ p span
   min-height: 37vh;
   margin-bottom: 0em;
   padding-bottom: 0em;
-  
+  top: 20%
   
 }
 
@@ -70,7 +72,8 @@ p span
   font-family: 'Pacifico', cursive;
   font-size: 27px;
   margin-top: 0px;
-  top: -30px;
+  
+  height: 30%;
 }
 
 .tBox2{
@@ -78,6 +81,7 @@ p span
   justify-content: center;
   align-items: center;
   text-align: center;
+  
 }
 
 .clock{
