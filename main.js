@@ -1,16 +1,19 @@
-
-
-setTimeout(function() {
-  $('.overlay').hide();
-}, 3000);
-
 setTimeout(function() {
   $('.page').hide();
+  $('.posterDiv').hide();
 }, 0);
 
 setTimeout(function() {
   $('.page').show();
+  $('.overlay').hide();
 }, 3000);
+
+setTimeout(function() {
+  $('.myVideo').hide();
+  $('.posterDiv').show();
+}, 22000);
+
+
 
 var clock;		
 		$(document).ready(function() {
