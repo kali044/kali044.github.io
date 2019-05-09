@@ -14,6 +14,7 @@ setTimeout(function() {
 }, 22000);
 
 document.getElementById('vid').play();
+document.getElementById('aud').play();
 
 var clock;		
 		$(document).ready(function() {
