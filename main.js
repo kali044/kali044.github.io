@@ -2,7 +2,7 @@
 
 setTimeout(function() {
   $('.overlay').hide();
-}, 2000);
+}, 3000);
 
 setTimeout(function() {
   $('.page').hide();
@@ -10,7 +10,7 @@ setTimeout(function() {
 
 setTimeout(function() {
   $('.page').show();
-}, 2000);
+}, 3000);
 
 var clock;		
 		$(document).ready(function() {
@@ -36,49 +36,3 @@ var clock;
 
 		});
 
-
-
-function getTimeRemaining(endtime) {
-    var t = endtime - Date.parse(new Date());
-    var days = Math.floor(t / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((t % (1000 * 60)) / 1000);
-    return {
-      'total': t,
-      'days': days,
-      'hours': hours,
-      'minutes': minutes,
-      'seconds': seconds
-    };
-  }
-  
-  function initializeClock(id, endtime) {
-    var clock = document.getElementById(id);
-    var daysSpan = clock.querySelector('.days');
-    var hoursSpan = clock.querySelector('.hours');
-    var minutesSpan = clock.querySelector('.minutes');
-    var secondsSpan = clock.querySelector('.seconds');
-  
-    function updateClock() {
-      var t = getTimeRemaining(endtime);
-      console.log(t);
-  
-      daysSpan.innerHTML = t.days;
-      hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
-      minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
-      secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
-  
-      if (t.total <= 0) {
-        clearInterval(timeinterval);
-      }
-    }
-  
-    updateClock();
-    var timeinterval = setInterval(updateClock, 1000);
-  }
-  
-  var deadline = new Date("July 2, 2019 00:00:00").getTime();
-  initializeClock('clockdiv', deadline);
-
- 
