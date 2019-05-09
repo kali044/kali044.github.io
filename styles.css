@@ -9,6 +9,14 @@ p span
     display: block;
 }
 
+.clock{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 30vh;
+}
+
 .overlay{
   background-color: #AE242B;
   align-items: center;
